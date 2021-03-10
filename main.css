@@ -1,0 +1,27 @@
+body {
+   background-color: lightgray;
+}
+
+.blocks {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  display: inline-block;
+  margin: 10px;
+}
+
+#row {
+   width: 500px;
+}
+
+#blocks:hover {
+   cursor: pointer;
+}
+
+#container {
+   margin-left: 300px;
+   margin-top: 200px;
+}
+
+.lightMode {
+   background-color: rgb(175, 175, 175);
